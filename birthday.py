@@ -7,7 +7,7 @@ Created on Wed Oct 31 10:41:07 2018
 
 import datetime
 
-birthday = input("What is your birthday?")
-birthdate = datetime.datetime.strptime(birthday,"%d/%m/%y").date()
+birthday = input("What is your birthday? (dd/mm/yyyy)" )
+birthdate = datetime.datetime.strptime(birthday,"%d/%m/%Y").date()
 
 print("Your birth month is " +birthdate.strftime('%B'))
