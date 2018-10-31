@@ -18,3 +18,6 @@ print(currdate.year)
 print(currdate.strftime('%d %b, %Y'))
 print(currdate.strftime('%d-%m-%Y')) 
 print(currdate.strftime('%a %A')) 
+
+#strftime allows you to specify the date format
+print(currdate.strftime('Please attend our event %A, %B %d in the year %Y'))
