@@ -21,3 +21,9 @@ print(currdate.strftime('%a %A'))
 
 #strftime allows you to specify the date format
 print(currdate.strftime('Please attend our event %A, %B %d in the year %Y'))
+
+print ("Timedelta 15 days : ") 
+print (currdate + datetime.timedelta(days=15))
+
+print ("Timedelta 15 hours : ")
+print (currdate + datetime.timedelta(hours=25))
