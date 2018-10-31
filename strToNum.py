@@ -6,7 +6,14 @@ Created on Wed Oct 31 11:36:32 2018
 """
 
 deposit = input("How much would you like to deposit?")
-if float(deposit) > 100:
-    print("You get a free toaster!")
+freeToaster
 
+if float(deposit) > 100:
+    freeToaster = True
+else :
+    print("Enjoy your free mug!")
+    
+if freeToaster:
+    print("You get a free toaster!") 
+    
 print("Have a nice day!")    
