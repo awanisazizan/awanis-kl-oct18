@@ -19,3 +19,6 @@ with open(fileName, accessMode) as myCSVFile:
 
 for row in dataFromFile:
     print(row)
+
+
+myCSVFile.close()
